@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+    android:text="PV"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvIntentPVPrompt" />
+  <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvIntentPV" />
+  <TextView
+      android:text="FV"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvIntentFVPrompt" />
+  <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvIntentFV" />
+  <TextView
+      android:text="PMT"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvIntentPMTPrompt" />
+  <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvIntentPMT" />
+
+</LinearLayout>

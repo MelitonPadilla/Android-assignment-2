@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+        android:text="Enter Amount:integer value between 1,000 and 1,000,000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmountInPrompt" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/etAmountIn" />
+  <TextView
+      android:text="Enter InterestRate: A floating-point value between 0.01 and 0.20"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtInterestRateInPrompt" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/etIntrestRateIn" />
+  <TextView
+      android:text="Enter Term: Number of periods (measured in years) integers between 1 and 30."
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtTermInPrompt" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/etTermIn" />
+  <Button 
+      android:text="Submit to form"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnSubmitForm"/>
+  <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResultOutput" />
+</LinearLayout>

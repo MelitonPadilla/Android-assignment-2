@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <TextView
+    android:text="Welcome. If you accept the terms and conditions, click the Assumptions button."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtPrompt"/>
+  <Button
+        android:text="Assumptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAssumptions" />
+  <Button
+      android:text="Exit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnExitApp" />
+  <Button
+      android:text="Dialog Box"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnDialogBox" />
+</LinearLayout>
