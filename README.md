@@ -1,5 +1,6 @@
 # Android-assignment-2
 Android application using Xamarin that will Use multiple activities Pass data between activities using the Bundle or Extras. Display dialog boxes. Convert input data (strings) to numeric data, write arithmetic expressions, and display and format output.The code will  perform various financial functions.
+
 Example 1: Homescreen that displays three buttons for differnt options
 
 ![alt tag](https://cloud.githubusercontent.com/assets/22482349/25407384/f0e3805c-29be-11e7-8f3f-ed2604be31b1.png)
